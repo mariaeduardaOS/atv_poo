@@ -3,7 +3,7 @@ public class Lider extends Funcionarios {
         super(nome, valorhora, Cod_empresa, horatrabmes);
     }
 
-    public double calcsal() {
-        return super.calcsal() * 1.05;
+    public double calcsalario() {
+        return super.calcsalario() * 1.05;
     }
 }
