@@ -10,7 +10,7 @@ public class Funcionarios{
         this.Cod_empresa = cod_empresa;
         this.horatrabmes = horatrabmes;
     }
-    public double calcsal(){
+    public double calcsalario(){
         return valorhora * horatrab;
     }
 }
